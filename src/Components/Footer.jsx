@@ -4,6 +4,8 @@ import { FaInstagram, FaFacebook, FaLinkedin, FaHeart } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { HashLink } from 'react-router-hash-link';
 import "./CSS/Footer.css";
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
   return (
@@ -40,6 +42,7 @@ export default function Footer() {
             <HashLink smooth to="/team" className="list-items hover-link">
                 Team
             </HashLink>
+
             </div>
           </div>
           <div className="footer-div">
